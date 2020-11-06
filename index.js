@@ -46,7 +46,7 @@ client.on("message", async message => {
 
 })
 
-client.login(botsettings.token);
+client.login(process.env.token);
 
 // const Discord = require('discord.js');
 // const fs = require('fs');
